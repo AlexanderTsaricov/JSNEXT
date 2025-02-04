@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddReview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="index.html" class="menu_link">Head</a>
+        <a href="reviews.html" class="menu_link">Reviews</a>
+    </nav>
+    <div class="addReviewBox">
+        <label class="addReviewBox_label">
+            ProductName
+            <input type="text" name="product" id="productName" class="addReviewBox_input">
+            <p class="addReviewBox_error invisible">This input should not be empty</p>
+        </label>
+        <label class="addReviewBox_label">
+            Review
+            <input type="text" name="review" id="productReview" class="addReviewBox_input">
+            <p class="addReviewBox_error invisible">This input should not be empty</p>
+        </label>
+        <button class="addReviewBox_button">Add reviews</button>
+    </div>
+    <script src="script_index.js"></script>
+</body>
+</html>

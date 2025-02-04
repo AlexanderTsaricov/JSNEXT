@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #be6868;
+}
+
+.menu {
+  background-color: #0c0606;
+  padding: 25px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+.menu_link {
+  text-decoration: none;
+  color: #c50000;
+}
+.menu_link:hover {
+  color: #ffffff;
+}
+
+.addReviewBox {
+  background-color: #271515;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}
+.addReviewBox_label {
+  color: #c50000;
+}
+.addReviewBox_input {
+  margin-left: 15px;
+  background-color: #632020;
+  color: #67db97;
+}
+.addReviewBox_button {
+  max-width: 125px;
+  padding: 5px 10px;
+  background-color: #c50000;
+  color: #67db97;
+  cursor: pointer;
+}
+.addReviewBox_button:hover {
+  background-color: #000000;
+}
+
+.reviewsBox {
+  background-color: #271515;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+}
+.reviewsBox_nonReviews {
+  color: #70e054;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.displayNone {
+  display: none;
+}
+
+.productBox {
+  background-color: #a74848;
+}
+.productBox_header {
+  cursor: pointer;
+}
+.productBox_header:hover {
+  color: white;
+}
+
+.reviewBox_button {
+  padding: 5px 10px;
+  margin-left: 15px;
+  color: #70e054;
+  background-color: #0c0404;
+  cursor: pointer;
+}
+.reviewBox_button:hover {
+  background-color: #1a271a;
+}/*# sourceMappingURL=style.css.map */
